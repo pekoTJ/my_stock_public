@@ -1,0 +1,5 @@
+--- a/plotly/basewidget.py
++++ b/plotly/basewidget.py
+@@
+-                        if not input_val:
++                        if input_val is None or (hasattr(input_val, "size") and input_val.size == 0) or (not hasattr(input_val, "size") and not input_val):

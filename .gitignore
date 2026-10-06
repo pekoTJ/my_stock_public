@@ -1,0 +1,19 @@
+# Personal source documents and generated outputs
+html/
+pdf/
+reports/
+artifacts/
+data/
+config/strategy.json
+
+# Runtime portfolio data (commit only the matching *.example.csv files)
+csv/*.csv
+!csv/*.example.csv
+test.csv
+visibility_debug.log
+
+# Local tooling
+.venv/
+__pycache__/
+.codex-runtime/
+.env

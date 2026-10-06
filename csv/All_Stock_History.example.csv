@@ -1,0 +1,2 @@
+,date,stock_name,quantity,price,fee,type,number,notional,discount,tax,cost_cash_flow,sold_cash_flow,dividends_cash_flow
+0,2025-01-02,Sample ETF,10,100.00,1,現買,DEMO,1000,0,0,-1001,0,0
